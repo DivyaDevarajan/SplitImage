@@ -14,6 +14,9 @@
 		C552FE161E542616002D5982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C552FE141E542616002D5982 /* LaunchScreen.storyboard */; };
 		C552FE211E542616002D5982 /* SplitImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552FE201E542616002D5982 /* SplitImageTests.swift */; };
 		C552FE2C1E542616002D5982 /* SplitImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552FE2B1E542616002D5982 /* SplitImageUITests.swift */; };
+		C552FE3C1E546B18002D5982 /* SampleVideo_1280x720_1mb.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C552FE3B1E546B18002D5982 /* SampleVideo_1280x720_1mb.mp4 */; };
+		C552FE3E1E546C4E002D5982 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C552FE3D1E546C4E002D5982 /* AVFoundation.framework */; };
+		C552FE401E546C53002D5982 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C552FE3F1E546C53002D5982 /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		C552FE271E542616002D5982 /* SplitImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C552FE2B1E542616002D5982 /* SplitImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitImageUITests.swift; sourceTree = "<group>"; };
 		C552FE2D1E542616002D5982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C552FE3B1E546B18002D5982 /* SampleVideo_1280x720_1mb.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = SampleVideo_1280x720_1mb.mp4; path = ../SampleVideo_1280x720_1mb.mp4; sourceTree = "<group>"; };
+		C552FE3D1E546C4E002D5982 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C552FE3F1E546C53002D5982 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C552FE401E546C53002D5982 /* AVKit.framework in Frameworks */,
+				C552FE3E1E546C4E002D5982 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +85,8 @@
 		C552FDFF1E542615002D5982 = {
 			isa = PBXGroup;
 			children = (
+				C552FE3F1E546C53002D5982 /* AVKit.framework */,
+				C552FE3D1E546C4E002D5982 /* AVFoundation.framework */,
 				C552FE0A1E542616002D5982 /* SplitImage */,
 				C552FE1F1E542616002D5982 /* SplitImageTests */,
 				C552FE2A1E542616002D5982 /* SplitImageUITests */,
@@ -97,6 +107,7 @@
 		C552FE0A1E542616002D5982 /* SplitImage */ = {
 			isa = PBXGroup;
 			children = (
+				C552FE3B1E546B18002D5982 /* SampleVideo_1280x720_1mb.mp4 */,
 				C552FE0B1E542616002D5982 /* AppDelegate.swift */,
 				C552FE0D1E542616002D5982 /* ViewController.swift */,
 				C552FE0F1E542616002D5982 /* Main.storyboard */,
@@ -229,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C552FE3C1E546B18002D5982 /* SampleVideo_1280x720_1mb.mp4 in Resources */,
 				C552FE161E542616002D5982 /* LaunchScreen.storyboard in Resources */,
 				C552FE131E542616002D5982 /* Assets.xcassets in Resources */,
 				C552FE111E542616002D5982 /* Main.storyboard in Resources */,
@@ -484,6 +496,7 @@
 				C552FE321E542616002D5982 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C552FE331E542616002D5982 /* Build configuration list for PBXNativeTarget "SplitImageTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				C552FE351E542616002D5982 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C552FE361E542616002D5982 /* Build configuration list for PBXNativeTarget "SplitImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				C552FE381E542616002D5982 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
